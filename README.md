@@ -1,3 +1,16 @@
+# Repository Structure
+
+- `main.ipynb`: Main Jupyter notebook demonstrating the workflow for segmentation and image enhancement.
+- `README.md`: Project overview and instructions.
+- `datasets/`: Contains the Cityscapes dataset and related files.
+  - `cityscapes/`: Downloaded Cityscapes data, including images and annotations.
+- `deeplabv3plus/`: Code for semantic segmentation using DeepLabV3+.
+- `Real-ESRGAN/`: Code for image enhancement using Real-ESRGAN.
+- `results/`: Stores output metrics and results from experiments.
+- `scripts/`: Utility scripts, such as `download_cityscapes.sh` for dataset downloading.
+
+This structure organizes the code, data, and results for a workflow involving semantic segmentation and image enhancement. The main external repositories (`deeplabv3plus` and `Real-ESRGAN`) are included as folders for direct use.
+
 # main.ipynb - Project Overview
 
 This notebook demonstrates a workflow for semantic segmentation and image enhancement using two main repositories:
